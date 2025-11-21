@@ -12,6 +12,7 @@ dependencies:
   flutter_riverpod:
   freezed_annotation: ^3.1.0
   http: ^1.6.0
+  intl: ^0.20.2
   json_annotation: ^4.9.0
   riverpod_annotation: ^3.0.3
 

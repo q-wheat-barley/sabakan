@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514939435570",
+    "project_id": "my-subscription-manage",
+    "storage_bucket": "my-subscription-manage.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514939435570:android:398dd7e4a28151ea301a2b",
+        "android_client_info": {
+          "package_name": "com.example.sabakan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl3BZtXUmk6WJJCHHiM4lzd26ZgS65wq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

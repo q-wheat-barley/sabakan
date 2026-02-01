@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:sabakan/ui/add_subscription_open_button.dart';
 
 import 'firebase_options.dart';
 import 'ui/subscription_list.dart';
@@ -17,7 +18,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(body: SafeArea(child: SubscriptionList())),
+      home: Scaffold(
+        floatingActionButton: AddSubscriptionOpenButton(),
+        body: SafeArea(child: SubscriptionList()),
+      ),
     );
   }
 }
